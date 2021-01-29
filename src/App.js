@@ -1,31 +1,27 @@
-import React from 'react'
+import React from 'react';
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize.min.js';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './components/pages/Home';
+import Skills from './components/pages/skills/Skills';
+import Experiences from './components/pages/experiences/Experiences';
+import Educations from './components/pages/educations/Educations';
+import Portfolios from './components/pages/portfolios/Portfolios';
 import './App.css';
-import 'materialize-css/dist/css/materialize.min.css'
-import 'materialize-css/dist/js/materialize.min.js'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-
-import Home from '../src/components/Home'
-import Skills from '../src/components/Skills'
-import Experiences from '../src/components/Experiences'
-import Educations from '../src/components/Educations'
-import Portfolios from '../src/components/Portfolios'
-
-
 
 function App() {
   return (
-      <Router>
-        <>
-        <Route exact path='/' component={Home}/>
-        <Switch >
-          <Route path='/skills' component={Skills}/>
-          <Route path='/experiences' component={Experiences}/>
-          <Route path='/educations' component={Educations}/>
-          <Route path='/portfolios' component={Portfolios}/>
-          
+    <Router>
+      <>
+        <Route exact path="/" component={Home} />
+        <Switch>
+          <Route path="/skills" component={Skills} />
+          <Route path="/experiences" component={Experiences} />
+          <Route path="/educations" component={Educations} />
+          <Route path="/portfolios" component={Portfolios} />
         </Switch>
-        </>
-      </Router>
+      </>
+    </Router>
   );
 }
 
