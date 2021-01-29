@@ -5,7 +5,7 @@ import About from '../../components/pages/about/About';
 import Skills from '../../components/pages/skills/Skills';
 import Experiences from '../../components/pages/experiences/Experiences';
 import Educations from '../../components/pages/educations/Educations';
-import Portfolios from '../../components/pages/portfolios/Portfolios';
+
 
 export default class Home extends Component {
 	render() {
@@ -22,7 +22,7 @@ export default class Home extends Component {
 							<Skills />
 							<Experiences />
 							<Educations />
-							<Portfolios />
+						
 						</div>
 					</div>
 				</div>

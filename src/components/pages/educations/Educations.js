@@ -4,12 +4,12 @@ import { HashLink as Link } from 'react-router-hash-link';
 export default function Educations() {
 	return (
 		<div>
-			<div class='card'>
-				<div class='card-content'>
+			<div className='card'>
+				<div className='card-content'>
 					<h6>
 						<strong>EDUCATION</strong>
 					</h6>
-					<table class='striped'>
+					<table className='striped'>
 						<thead>
 							<tr>
 								<th>Certificate</th>
@@ -19,40 +19,24 @@ export default function Educations() {
 						</thead>
 						<tbody>
 							<tr>
-								<td>Web Development</td>
-								<td>Jan 2018</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
+								<td>Analysis and System Development</td>
+								<td>Jan 2020 - Present</td>
+								
 							</tr>
 							<tr>
-								<td>Graphic Design</td>
-								<td>May 2018</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
+								<td>English</td>
+								<td>Jan 2018 - Present</td>
+								
 							</tr>
 							<tr>
-								<td>Tech Gadgets</td>
-								<td>June 2018</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
+								<td>React JS - React Native</td>
+								<td>Dec 2020 - Present</td>
+								
 							</tr>
 							<tr>
-								<td>Other</td>
-								<td>Dec 2018</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
+								<td>JavaScript</td>
+								<td>Apr 2020</td>
+								
 							</tr>
 						</tbody>
 					</table>

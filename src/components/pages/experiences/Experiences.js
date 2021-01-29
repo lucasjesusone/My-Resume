@@ -11,15 +11,15 @@ export default function Experiences() {
           <div className="row mt-top">
             <div className="col xl4 l4 m6 s12">
               <p className="teal year_exp white-text">
-                Jan
-                <strong>2016</strong> - Mar
-                <strong>2017</strong>
+                Apr
+                <strong> 2016</strong> - Oct
+                <strong> 2019</strong>
               </p>
             </div>
             <div className="col xl8 l8 m6 s12">
               <blockquote className="no-pad">
                 <h6 className="no-pad mt-bottom">
-                  <strong>WEB DEVELOPER</strong>
+                  <strong>WareHouse Assistant</strong>
                 </h6>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
@@ -33,15 +33,15 @@ export default function Experiences() {
           <div className="row mt-top">
             <div className="col xl4 l4 m6 s12">
               <p className="teal year_exp white-text">
-                Jan
-                <strong>2016</strong> - Mar
-                <strong>2017</strong>
+                Aug
+                <strong> 2020</strong> - Present
+                <strong> </strong>
               </p>
             </div>
             <div className="col xl8 l8 m6 s12">
               <blockquote className="no-pad">
                 <h6 className="no-pad mt-bottom">
-                  <strong>WEB DEVELOPER</strong>
+                  <strong>IT Intern</strong>
                 </h6>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,

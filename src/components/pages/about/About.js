@@ -22,25 +22,24 @@ export default function About() {
           <div className="row mt">
             <div className="col xl6 l6 m6 s12">
               <p>
-                <strong>Address:</strong> 123 Lorem
+                <strong>Location:</strong> Cuiaba - MT, Brazil
               </p>
               <p>
-                <strong>Email:</strong> test@yahoo.com
+                <strong>Email:</strong> lucasjesusone@gmail.com
               </p>
               <p>
-                <strong>Phone:</strong> 123 456 7898
+                <strong>Phone:</strong> +55 65 993464850
               </p>
+             
             </div>
             <div className="col xl6 l6 m6 s12">
               <p>
-                <strong>Main Language</strong> - English
+                <strong>Main Language</strong> - Portuguese
               </p>
               <p>
-                <strong>Second Language</strong> - Spanish
+                <strong>Second Language</strong> - English
               </p>
-              <p>
-                <strong>Third Language</strong> - Chinese
-              </p>
+            
             </div>
           </div>
         </div>

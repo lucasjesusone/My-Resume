@@ -1,6 +1,6 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
-import ImgProfile from '../../../images/person1.jpg';
+// import { HashLink as Link } from 'react-router-hash-link';
+import ImgProfile from '../../../images/photo.png';
 
 export default function Profile() {
 	return (
@@ -8,29 +8,15 @@ export default function Profile() {
 			<div className='card'>
 				<div className='card-image'>
 					<img className='activator' src={ImgProfile} alt='John Doe' />
-					<Link className='btn-floating halfway-fab waves-effect waves-light red'>
-						<i className='material-icons activator'>more_vert</i>
-					</Link>
+					
 				</div>
 				<div className='card-content'>
-					<span className='card-title activator grey-text text-darken-4'>
-						John Doe
+					<span className='card-title activator grey-text text-darken-4' style={{ fontSize: 22 }}>
+						Lucas Gabriel
 					</span>
-					<p>Full Stack Web Developer</p>
+					<p>Front End Developer</p>
 				</div>
-				<div className='card-reveal'>
-					<span className='card-title grey-text text-darken-4'>
-						Follow Me
-						<i className='material-icons right'>close</i>
-					</span>
-					<p className='flex-container'>
-						<i className='fab fa-facebook-f grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-twitter grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-google-plus-g grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-instagram grey-text text-darken-4 social_style'></i>
-						<i className='fab fa-pinterest grey-text text-darken-4 social_style'></i>
-					</p>
-				</div>
+				
 			</div>
 		</div>
 	);
